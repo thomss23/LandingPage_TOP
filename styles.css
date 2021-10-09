@@ -1,0 +1,126 @@
+body {
+    min-height: 100vh;
+}
+
+/* CSS Section 1 */
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin:0;
+}
+
+a,
+.text {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5e7eb;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: auto;
+    width: 100px;
+    
+}
+
+.section-one {
+    background-color: #1F2937;
+}
+
+/* Flex section 1 */
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left:13%;
+    padding-right: 13%;
+    align-items: center;
+    
+}
+
+ul {
+    display:flex;
+    gap:10px;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    padding-left:13%;
+    padding-right: 13%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-height: 250px;
+}
+.left-side {
+    width:300px;
+}
+
+ 
+/* CSS Section 2  */
+.product img {
+    border: 2px solid rgb(85, 85, 241);
+    width:160px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product {
+    width:160px;
+    height: 150px;
+}
+
+.info {
+    
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+/* Flex section 2 */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.products {
+    display: flex;
+    gap:50px;
+    margin-top: 40px;
+}
+
+.products div {
+    text-align: center;
+}
+
+/* CSS Section 3  */
+
+/* Flex section 3 */
+
+

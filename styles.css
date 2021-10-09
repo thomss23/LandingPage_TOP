@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     min-height: 100vh;
 }
 
@@ -36,6 +37,8 @@ button {
     border-radius: 5px;
     margin-top: auto;
     width: 100px;
+    border:2px solid #3882f6;
+
     
 }
 
@@ -79,7 +82,7 @@ ul {
  
 /* CSS Section 2  */
 .product img {
-    border: 2px solid rgb(85, 85, 241);
+    border: 3px solid rgb(97, 152, 255);
     width:160px;
     height: 150px;
     border-radius: 5px;
@@ -105,8 +108,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .products {
@@ -119,8 +122,82 @@ ul {
     text-align: center;
 }
 
+.description {
+    color: rgb(105, 103, 103);
+}
+
 /* CSS Section 3  */
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.quoute {
+    font-style: italic;
+    font-size: 36px;
+    color: #5d5f61;
+    width: 800px;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #5d5f61;
+    align-self: flex-end;
+    margin-right: 120px;
+}
 
 /* Flex section 3 */
 
+/* CSS Section 4 */
+.signup-action-btn{
+    background-color: #3882f6;
+    color: #E5e7eb;
+    padding: 8px 20px;
+    border-radius: 5px;
+    width: 100px;
+    border:2px solid white;
+}
+/* Flex section 4 */
+.section-four {
+    flex:1;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-info-container {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    gap:50px;
+}
+.action{
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.sign-up-description {
+    color: #f6f7f4;
+    
+}
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #f6f7f4;
+    padding:20px;
+    margin:0;
+}
 
